@@ -24,8 +24,7 @@ Proyek ini adalah aplikasi **REST API sederhana** untuk manajemen data buku, dib
 2. Install dependency:
    ```bash
    composer install
-   npm install
-
+   
 3. Salin file .env:
    ```bash
    cp .env.example .env
@@ -35,9 +34,9 @@ Proyek ini adalah aplikasi **REST API sederhana** untuk manajemen data buku, dib
    ```bash
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
-   DB_PORT=3306
-   DB_DATABASE=simple_library
-   DB_USERNAME=root
+   DB_PORT=3306 # sesuaikan port nya
+   DB_DATABASE=simple_library 
+   DB_USERNAME=root # sesuaikan username nya
    DB_PASSWORD= # kosongkan jika tidak ada password
 
 4. Migrasi sekaligus seeding database:
